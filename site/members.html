@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; frame-src https://calendar.google.com; connect-src 'self'; form-action 'self'; base-uri 'self'; object-src 'none'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Members | Groton Business Association</title>
+  <meta name="description" content="Directory of Groton Business Association member businesses and organizations.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <a class="banner" href="index.html" aria-label="Groton Business Association home">
+    <img src="assets/gba-banner.png" width="1260" height="240" alt="Groton Business Association, Community and Commerce. An illustration of Groton with farms, a church steeple, and a winding road.">
+  </a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Groton Business Association<small>Community and commerce in Groton, Massachusetts</small></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="members.html" aria-current="page">Members</a></li>
+        <li><a href="https://www.grotonfest.com" rel="noopener">GrotonFest</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="join.html" class="nav-join">Join the GBA</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <h1>Member directory</h1>
+        <p class="lede">Groton-area businesses, farms, and organizations that belong to the GBA.</p>
+      </div>
+    </section>
+    <section class="wrap dir-layout">
+      <aside class="dir-filters" aria-labelledby="cat-h">
+        <details class="cat-panel" open>
+          <summary id="cat-h">Filter by category</summary>
+          <p class="hint">Check one or more. You'll see members in any of the categories you check. A main category includes its subcategories.</p>
+          <p><button type="button" id="cat-clear" class="link-btn" hidden>Clear all categories</button></p>
+          <div id="cat-tree" class="cat-tree"></div>
+        </details>
+      </aside>
+      <div class="dir-results">
+        <div class="field">
+          <label for="dir-search">Search members</label>
+          <input id="dir-search" type="search" placeholder="Name, service, or keyword" autocomplete="off">
+        </div>
+        <p id="cat-chosen" class="cat-chosen" aria-live="polite"></p>
+        <p id="dir-count" class="dir-count" aria-live="polite">Loading members</p>
+        <ul id="dir-list" class="dir-list"></ul>
+        <div class="note mt-m">
+          <p>Is your business a member and your listing needs a change? <a href="contact.html">Send us the update</a>. Not a member yet? <a href="join.html">Apply here</a>.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="wrap cols cols-3">
+      <div>
+        <h2>Groton Business Association</h2>
+        <address>161 Main Street<br>Groton, MA 01450</address>
+      </div>
+      <div>
+        <h2>Monthly meetings</h2>
+        <p>Third Wednesday of the month, 5:00 pm, September to June. Hosted at a member business.</p>
+      </div>
+      <div>
+        <h2>Find your way</h2>
+        <ul>
+          <li><a href="calendar.html">Meeting calendar</a></li>
+          <li><a href="members.html">Member directory</a></li>
+          <li><a href="join.html">Membership application</a></li>
+          <li><a href="https://www.grotonfest.com" rel="noopener">GrotonFest</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap"><p class="fine">The Groton Business Association is a non-profit organization.</p></div>
+  </footer>
+  <script src="data/members-data.js" defer></script>
+  <script src="assets/members.js" defer></script>
+</body>
+</html>

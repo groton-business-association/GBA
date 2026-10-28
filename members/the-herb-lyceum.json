@@ -1,0 +1,21 @@
+{
+  "name": "The Herb Lyceum",
+  "active": true,
+  "contact": "",
+  "website": "https://www.herblyceum.com",
+  "email": "",
+  "phone": "",
+  "town": "Groton, MA",
+  "categories": [
+    "Accommodations & Hospitality",
+    "Agriculture",
+    "Catering",
+    "Dining",
+    "Meeting Venues",
+    "Restaurants & Eating Establishments",
+    "Wedding Venues"
+  ],
+  "specialty": "",
+  "description": "A working 4-acre farm in Groton run by the Gilson family since the 1800s, growing produce, herbs, and flowers and hosting events.",
+  "logo": ""
+}

@@ -1,0 +1,20 @@
+{
+  "name": "Dynamic Escalation Solutions LLC",
+  "active": true,
+  "contact": "Yuval Gonen, Founder",
+  "website": "https://dynamicescalation.com",
+  "email": "yuval@dynamicescalation.com",
+  "phone": "",
+  "town": "Groton, MA",
+  "categories": [
+    "Business Services > Business Consulting",
+    "Business Services > Business Process Optimization",
+    "Business Services > Change Management",
+    "Business Services > Executive Coaching",
+    "Business Services > Management Consulting",
+    "Business Services > Team Building"
+  ],
+  "specialty": "Management Consulting",
+  "description": "Dynamic Escalation Solutions designs authority for the moment a strategic customer escalates, so major escalations no longer land on the same executive.",
+  "logo": "assets/logos/dynamic-escalation-solutions.png"
+}

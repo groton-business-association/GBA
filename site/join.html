@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; frame-src https://calendar.google.com; connect-src 'self'; form-action 'self'; base-uri 'self'; object-src 'none'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Join the GBA | Groton Business Association</title>
+  <meta name="description" content="Apply for Groton Business Association membership. Annual dues are $100 or $200.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <a class="banner" href="index.html" aria-label="Groton Business Association home">
+    <img src="assets/gba-banner.png" width="1260" height="240" alt="Groton Business Association, Community and Commerce. An illustration of Groton with farms, a church steeple, and a winding road.">
+  </a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Groton Business Association<small>Community and commerce in Groton, Massachusetts</small></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li><a href="https://www.grotonfest.com" rel="noopener">GrotonFest</a></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li><a href="join.html" class="nav-join" aria-current="page">Join the GBA</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <h1>Join the GBA</h1>
+        <p class="lede">Membership is open to for-profit and non-profit businesses and organizations in Groton and surrounding towns, including storefronts, farms, corporations, home-based businesses, and individual contributors.</p>
+      </div>
+    </section>
+
+    <section class="section section-tint">
+      <div class="wrap">
+        <h2>Membership types</h2>
+        <ul class="people">
+          <li><strong>For-profit business</strong><span>Up to 3 people attend meetings. $200 a year.</span></li>
+          <li><strong>Non-profit organization</strong><span>Up to 3 people attend meetings. $200 a year.</span></li>
+          <li><strong>Non-profit organization, single</strong><span>1 person attends meetings. $100 a year.</span></li>
+          <li><strong>Individual contributor</strong><span>Only you attend meetings. $100 a year.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap cols cols-2">
+        <div>
+          <h2>Membership application</h2>
+          <form class="form" name="membership" method="POST" action="thanks.html" data-netlify="true" netlify-honeypot="company_url">
+            <input type="hidden" name="form-name" value="membership">
+            <p class="hidden"><label>Leave this empty <input name="company_url"></label></p>
+            <div class="field"><label for="m-first">First name <span class="req">*</span></label><input id="m-first" name="first_name" type="text" required autocomplete="given-name"></div>
+            <div class="field"><label for="m-last">Last name <span class="req">*</span></label><input id="m-last" name="last_name" type="text" required autocomplete="family-name"></div>
+            <div class="field"><label for="m-email">Email <span class="req">*</span></label><input id="m-email" name="email" type="email" required autocomplete="email"></div>
+            <div class="field"><label for="m-phone">Cell phone <span class="req">*</span></label><input id="m-phone" name="phone" type="tel" required autocomplete="tel"></div>
+            <div class="field"><label for="m-biz">Business or individual contributor name <span class="req">*</span></label><input id="m-biz" name="business_name" type="text" required autocomplete="organization"></div>
+            <div class="field"><label for="m-addr">Full address <span class="req">*</span></label><textarea id="m-addr" name="address" required autocomplete="street-address" class="short"></textarea></div>
+            <div class="field"><label for="m-web">Website <span class="req">*</span> <span class="hint">(write None if you don't have one)</span></label><input id="m-web" name="website" type="text" required placeholder="www.yourbusiness.com or None" autocomplete="url"></div>
+            <fieldset class="field">
+              <legend>Membership type <span class="req">*</span></legend>
+              <label class="choice"><input type="radio" name="membership_type" value="For-profit business, up to 3 attend, $200" required> For-profit business, up to 3 attend, $200 a year</label>
+              <label class="choice"><input type="radio" name="membership_type" value="Non-profit, up to 3 attend, $200"> Non-profit organization, up to 3 attend, $200 a year</label>
+              <label class="choice"><input type="radio" name="membership_type" value="Non-profit, 1 attends, $100"> Non-profit organization, 1 attends, $100 a year</label>
+              <label class="choice"><input type="radio" name="membership_type" value="Individual contributor, $100"> Individual contributor, $100 a year</label>
+            </fieldset>
+            <div class="field"><label for="m-about">What does your business do, and why do you want to join? <span class="req">*</span></label><textarea id="m-about" name="about" required></textarea></div>
+            <div class="field"><label for="m-listing">Short description for the member directory <span class="req">*</span> <span class="hint">(one or two sentences)</span></label><textarea id="m-listing" name="directory_description" class="short" required></textarea></div>
+            <div><button class="btn" type="submit">Send application</button></div>
+          </form>
+        </div>
+        <div>
+          <h2>Paying dues</h2>
+          <div class="note">
+            <p>Dues are paid by check. The website does not take payments.</p>
+            <p>After you send the application, either bring your check to the next <a href="calendar.html">GBA meeting</a> or mail it.</p>
+            <p>Make the check payable to <strong>Groton Business Association</strong> and mail it to:</p>
+            <address>Groton Business Association<br>c/o Jeff Gordon, President<br>161 Main Street<br>Groton, MA 01450</address>
+          </div>
+          <p class="mt-m">Your listing appears in the member directory once dues are received.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="wrap cols cols-3">
+      <div>
+        <h2>Groton Business Association</h2>
+        <address>161 Main Street<br>Groton, MA 01450</address>
+      </div>
+      <div>
+        <h2>Monthly meetings</h2>
+        <p>Third Wednesday of the month, 5:00 pm, September to June. Hosted at a member business.</p>
+      </div>
+      <div>
+        <h2>Find your way</h2>
+        <ul>
+          <li><a href="calendar.html">Meeting calendar</a></li>
+          <li><a href="members.html">Member directory</a></li>
+          <li><a href="join.html">Membership application</a></li>
+          <li><a href="https://www.grotonfest.com" rel="noopener">GrotonFest</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap"><p class="fine">The Groton Business Association is a non-profit organization.</p></div>
+  </footer>
+
+</body>
+</html>

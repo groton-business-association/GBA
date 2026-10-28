@@ -1,0 +1,108 @@
+# Groton Business Association site. Static files plus a small Python build (build.py).
+[build]
+  # The website itself is the "site" folder. build.py turns members/*.json into the member
+  # directory and the home page member list on every deploy.
+  command = "python3 build.py"
+  publish = "site"
+
+[build.environment]
+  PYTHON_VERSION = "3.12"
+
+# Security headers for every page. The content security policy is set inside each page by build.py,
+# so the /admin editing page can use its own (it needs to talk to GitHub).
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Content-Type-Options = "nosniff"
+    Referrer-Policy = "strict-origin-when-cross-origin"
+    Permissions-Policy = "camera=(), microphone=(), geolocation=(), payment=()"
+    Strict-Transport-Security = "max-age=31536000"
+
+# Calendar feed: the site reads the GBA Google Calendar through this address.
+[[redirects]]
+  from = "/calendar.ics"
+  to = "https://calendar.google.com/calendar/ical/gbaconnection%40gmail.com/public/basic.ics"
+  status = 200
+  force = true
+
+# Old WordPress addresses, sent to their new pages.
+[[redirects]]
+  from = "/calendar/*"
+  to = "/calendar"
+  status = 301
+[[redirects]]
+  from = "/listings/*"
+  to = "/members"
+  status = 301
+[[redirects]]
+  from = "/listings"
+  to = "/members"
+  status = 301
+[[redirects]]
+  from = "/listings-category/*"
+  to = "/members"
+  status = 301
+[[redirects]]
+  from = "/listing/*"
+  to = "/members"
+  status = 301
+[[redirects]]
+  from = "/membership-app"
+  to = "/join"
+  status = 301
+[[redirects]]
+  from = "/vision-and-goals"
+  to = "/about"
+  status = 301
+[[redirects]]
+  from = "/board-and-bylaws"
+  to = "/about#leadership"
+  status = 301
+[[redirects]]
+  from = "/members/*"
+  to = "/members"
+  status = 301
+# WordPress, shop and login addresses are retired. Bots probing them get a 410 (gone).
+[[redirects]]
+  from = "/wp-admin/*"
+  to = "/404.html"
+  status = 410
+[[redirects]]
+  from = "/wp-login.php"
+  to = "/404.html"
+  status = 410
+[[redirects]]
+  from = "/xmlrpc.php"
+  to = "/404.html"
+  status = 410
+[[redirects]]
+  from = "/wp-content/*"
+  to = "/404.html"
+  status = 410
+[[redirects]]
+  from = "/shop/*"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/cart"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/checkout"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/my-account/*"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/account"
+  to = "/"
+  status = 301
+
+# The editing page and its settings should never be cached, so changes show at once.
+[[headers]]
+  for = "/admin/*"
+  [headers.values]
+    Cache-Control = "no-cache"
+    X-Robots-Tag = "noindex"

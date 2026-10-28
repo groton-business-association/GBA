@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self' data:; frame-src https://calendar.google.com; connect-src 'self'; form-action 'self'; base-uri 'self'; object-src 'none'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact | Groton Business Association</title>
+  <meta name="description" content="Contact the Groton Business Association.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/site.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <a class="banner" href="index.html" aria-label="Groton Business Association home">
+    <img src="assets/gba-banner.png" width="1260" height="240" alt="Groton Business Association, Community and Commerce. An illustration of Groton with farms, a church steeple, and a winding road.">
+  </a>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="index.html">Groton Business Association<small>Community and commerce in Groton, Massachusetts</small></a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="calendar.html">Calendar</a></li>
+        <li><a href="members.html">Members</a></li>
+        <li><a href="https://www.grotonfest.com" rel="noopener">GrotonFest</a></li>
+        <li><a href="contact.html" aria-current="page">Contact</a></li>
+        <li><a href="join.html" class="nav-join">Join the GBA</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-head">
+      <div class="wrap">
+        <h1>Contact the GBA</h1>
+        <p class="lede">Questions about membership, meetings, sponsorship, or a change to your directory listing.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap cols cols-2">
+        <form class="form" name="contact" method="POST" action="thanks.html" data-netlify="true" netlify-honeypot="company_url" enctype="multipart/form-data">
+          <input type="hidden" name="form-name" value="contact">
+          <p class="hidden"><label>Leave this empty <input name="company_url"></label></p>
+          <div class="field"><label for="c-name">Your name <span class="req">*</span></label><input id="c-name" name="name" type="text" required autocomplete="name"></div>
+          <div class="field"><label for="c-email">Email <span class="req">*</span></label><input id="c-email" name="email" type="email" required autocomplete="email"></div>
+          <div class="field"><label for="c-biz">Business or organization</label><input id="c-biz" name="business" type="text" autocomplete="organization"></div>
+          <div class="field">
+            <label for="c-topic">Topic</label>
+            <select id="c-topic" name="topic">
+              <option>General question</option>
+              <option>Membership</option>
+              <option>Update my directory listing</option>
+              <option>Meetings and events</option>
+              <option>Sponsorship and GrotonFest</option>
+            </select>
+          </div>
+          <div class="field"><label for="c-msg">Message <span class="req">*</span></label><textarea id="c-msg" name="message" required></textarea></div>
+          <div class="field"><label for="c-logo">Logo for your directory listing <span class="hint">(optional, PNG or JPG, under 2 MB)</span></label><input id="c-logo" name="logo" type="file" accept="image/png,image/jpeg"></div>
+          <div><button class="btn" type="submit">Send message</button></div>
+        </form>
+        <div>
+          <h2>By mail</h2>
+          <address>Groton Business Association<br>c/o Jeff Gordon, President<br>161 Main Street<br>Groton, MA 01450</address>
+          <h2 class="mt-m">In person</h2>
+          <p>Join us at the next <a href="calendar.html">monthly meeting</a>. Your first dinner is on us.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+  <footer class="site-footer">
+    <div class="wrap cols cols-3">
+      <div>
+        <h2>Groton Business Association</h2>
+        <address>161 Main Street<br>Groton, MA 01450</address>
+      </div>
+      <div>
+        <h2>Monthly meetings</h2>
+        <p>Third Wednesday of the month, 5:00 pm, September to June. Hosted at a member business.</p>
+      </div>
+      <div>
+        <h2>Find your way</h2>
+        <ul>
+          <li><a href="calendar.html">Meeting calendar</a></li>
+          <li><a href="members.html">Member directory</a></li>
+          <li><a href="join.html">Membership application</a></li>
+          <li><a href="https://www.grotonfest.com" rel="noopener">GrotonFest</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap"><p class="fine">The Groton Business Association is a non-profit organization.</p></div>
+  </footer>
+
+</body>
+</html>
