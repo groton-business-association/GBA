@@ -200,7 +200,7 @@ page("index.html", "Home",
         </section>
 
         <section class="home-block" id="grotonfest">
-          <h2>GrotonFest Family of festivals</h2>
+          <h2>GrotonFest Family of Festivals</h2>
           <p>GBA collaborates with the <a href="https://www.grotonma.gov" rel="noopener">Town of Groton</a>, our <a href="https://www.grotonfest.com/oursponsors" rel="noopener">sponsors</a>, the local artisan community, the <a href="https://prescottscc.org/" rel="noopener">Prescott Community Center</a>, <a href="https://www.thegrotoninn.com/" rel="noopener">the Groton Inn</a>, and <a href="https://www.grotonma.gov/government/boards-and-committees/destination-groton-committee/" rel="noopener">Destination Groton</a> to produce the GrotonFest Family of Festivals: four major "Heart &amp; Soul" annual Groton events.</p>
           <ul class="festivals">
             <li><a href="https://www.grotonfest.com/grotonfestspring" rel="noopener">GrotonFest Spring<span>Spring</span></a></li>
