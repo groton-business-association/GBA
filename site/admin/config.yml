@@ -6,8 +6,8 @@
     "repo": "OWNER/REPO",
     "branch": "main"
   },
-  "site_url": "https://groton-business-association.netlify.app",
-  "display_url": "https://groton-business-association.netlify.app",
+  "site_url": "https://grotonbusinessassociation.com",
+  "display_url": "https://grotonbusinessassociation.com",
   "media_folder": "site/assets/logos",
   "public_folder": "assets/logos",
   "collections": [
