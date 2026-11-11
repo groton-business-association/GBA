@@ -77,8 +77,8 @@
     shown.forEach(function (m) {
       var card = el("li", { "class": "member" });
       var mark;
-      if (m.logo && /^[a-z0-9._-]+\.(png|jpg|jpeg|webp|svg)$/i.test(m.logo)) {
-        mark = el("img", { "class": "member-logo", src: "assets/logos/" + m.logo, alt: m.name + " logo", loading: "lazy" });
+      if (m.logo && /^[a-z0-9._ -]+\.(png|jpg|jpeg|webp|svg)$/i.test(m.logo)) {
+        mark = el("img", { "class": "member-logo", src: "assets/logos/" + encodeURIComponent(m.logo), alt: m.name + " logo", loading: "lazy" });
       } else {
         var words = m.name.replace(/^the\s+/i, "").replace(/[^A-Za-z0-9 ]/g, " ").split(/\s+/).filter(Boolean);
         mark = el("span", { "class": "member-logo member-initials", "aria-hidden": "true" },
