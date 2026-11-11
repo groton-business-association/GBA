@@ -6,7 +6,7 @@ NAV = [("index.html", "Home"), ("about.html", "About"), ("calendar.html", "Calen
        ("members.html", "Members"), ("https://www.grotonfest.com", "GrotonFest"), ("contact.html", "Contact"), ("join.html", "Join the GBA")]
 
 # ---------- Member data: members/*.json (edited on the /admin page) -> site/data/*.csv ----------
-import json as _json0, os as _os
+import base64 as _base64, json as _json0, os as _os
 REPO = ROOT.parent
 CMS_CONFIG = ROOT / "admin" / "config.yml"
 
@@ -19,6 +19,9 @@ def generate_member_data():
     if not folder.is_dir():
         return
     import csv as _c
+    logo_catalog = REPO / "member-logos.json"
+    sourced_logos = _json0.loads(logo_catalog.read_text()) if logo_catalog.is_file() else {}
+    logos_dir = ROOT / "assets" / "logos"
     rows = []
     for f in sorted(folder.glob("*.json")):
         try:
@@ -28,6 +31,12 @@ def generate_member_data():
         if not str(d.get("name", "")).strip():
             continue
         logo = str(d.get("logo") or "").strip()
+        if not logo and d.get("active") is not False and f.stem in sourced_logos:
+            logo = f"sourced-{f.stem}.webp"
+            logos_dir.mkdir(parents=True, exist_ok=True)
+            (logos_dir / logo).write_bytes(
+                _base64.b64decode(sourced_logos[f.stem]["webp_base64"], validate=True)
+            )
         rows.append({
             "name": str(d.get("name", "")).strip(),
             "categories": "; ".join(c.strip() for c in (d.get("categories") or []) if str(c).strip()),
