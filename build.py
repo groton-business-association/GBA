@@ -196,7 +196,7 @@ page("index.html", "Home",
             <dt>Where</dt><dd>A different member business each month</dd>
             <dt>Dinner</dt><dd>Members free. First visit free. Non-members $30 at the door.</dd>
           </dl>
-          <a href="/calendar">See dates and locations</a>
+          <a href="/calendar" target="_blank" rel="noopener">See dates and locations</a>
         </aside>
       </div>
     </section>
