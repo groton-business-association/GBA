@@ -258,13 +258,13 @@ page("index.html", "Home",
           <p>The Executive Committee of the GBA is made up of six persons and responsibilities:</p>
           <ul class="plain-list">
             <li>President</li>
-            <li>Vice President</li>
             <li>Treasurer</li>
-            <li>Clerk</li>
-            <li>Director of Marketing and Events</li>
+            <li>Director of Marketing</li>
+            <li>Director of GrotonFest Event Coordination</li>
+            <li>Director of GrotonFest Entertainment</li>
             <li>Director of Giving</li>
           </ul>
-          <p>The Board of Directors is comprised of the Executive Committee and up to seven other GBA members. The Executive Committee and the Board of Directors serve voluntarily, without term limits. The administrative year begins on January 1 and ends on December 31.</p>
+          <p>The Board of Directors is comprised of the Executive Committee and up to seven other individuals. The Executive Committee and the Board of Directors serve voluntarily, without term limits. The administrative year begins on January 1 and ends on December 31.</p>
           <p>The GBA has two subcommittees:</p>
           <ul class="plain-list">
             <li><strong>Community Outreach Committee.</strong> This committee is chartered to increase GBA's reach and positive effect in the Groton community.</li>
