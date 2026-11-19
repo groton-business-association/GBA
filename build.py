@@ -339,7 +339,7 @@ page("about.html", "About",
           <ul class="people">
             <li><strong>Jeff Gordon</strong><span>President</span></li>
             <li><strong>Naomi Campbell Siok</strong><span>Treasurer</span></li>
-            <li><strong>Elani Coetzer</strong><span>Director of Marketing, Event Coordinator, GrotonFest Kids</span></li>
+            <li><strong>Elani Coetzer</strong><span>Director of Marketing<br>Event Coordinator, GrotonFest Kids</span></li>
             <li><strong>Jen Moore</strong><span>Director of GrotonFest Event Coordination</span></li>
             <li><strong>Caitlin Brandt</strong><span>Director of GrotonFest Entertainment</span></li>
             <li><strong>Sadie Guichard</strong><span>Director of Giving</span></li>
