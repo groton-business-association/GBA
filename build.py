@@ -339,7 +339,9 @@ page("about.html", "About",
           <ul class="people">
             <li><strong>Jeff Gordon</strong><span>President</span></li>
             <li><strong>Holly Varney</strong><span>Vice President</span></li>
-            <li><strong>Elani Coetzer</strong><span>Director of Marketing and Events</span></li>
+            <li><strong>Naomi Campbell Siok</strong><span>Treasurer</span></li>
+            <li><strong>Elani Coetzer</strong><span>Director of Marketing</span></li>
+            <li><strong>Jen Moore</strong><span>Director of Event Coordination</span></li>
             <li><strong>Sadie Guichard</strong><span>Director of Giving</span></li>
           </ul>
           <h3>Board of Advisors</h3>
