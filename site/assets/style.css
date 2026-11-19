@@ -120,7 +120,7 @@ main { display: block; }
 .people { list-style: none; padding: 0; margin: 0 0 24px; }
 .people li { padding: 10px 0; border-bottom: 1px solid var(--line); display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; max-width: var(--text); }
 .people strong { font-weight: 600; }
-.people span { color: var(--granite); }
+.people span { color: var(--granite); text-align: right; }
 
 /* Calendar */
 .cal-frame { width: 100%; height: 720px; border: 1px solid var(--line); border-radius: var(--radius-m); background: var(--white); }
