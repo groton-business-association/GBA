@@ -338,7 +338,6 @@ page("about.html", "About",
           <h3>Executive Committee</h3>
           <ul class="people">
             <li><strong>Jeff Gordon</strong><span>President</span></li>
-            <li><strong>Holly Varney</strong><span>Vice President</span></li>
             <li><strong>Naomi Campbell Siok</strong><span>Treasurer</span></li>
             <li><strong>Elani Coetzer</strong><span>Director of Marketing</span></li>
             <li><strong>Jen Moore</strong><span>Director of Event Coordination</span></li>
@@ -347,7 +346,6 @@ page("about.html", "About",
           <h3>Board of Advisors</h3>
           <ul class="people">
             <li><strong>Steve Lane</strong><span>CEO, Interactive Management Solutions, LLC</span></li>
-            <li><strong>Dominique Larkin</strong><span></span></li>
           </ul>
         </div>
         <div>
