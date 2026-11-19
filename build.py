@@ -192,7 +192,7 @@ page("index.html", "Home",
           <h2 id="meet-h">Come to a meeting</h2>
           <dl>
             <dt>When</dt><dd>Third Wednesday, 5:00 pm</dd>
-            <dt>Season</dt><dd>September to June</dd>
+            <dt>Season</dt><dd>Every Month, except July &amp; August</dd>
             <dt>Where</dt><dd>A different member business each month</dd>
             <dt>Dinner</dt><dd>Members free. First visit free. Non-members $30 at the door.</dd>
           </dl>
