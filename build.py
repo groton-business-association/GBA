@@ -467,7 +467,7 @@ page("join.html", "Join the GBA",
           <h2>Paying dues</h2>
           <div class="note">
             <p>Dues are paid by check. The website does not take payments.</p>
-            <p>After you send the application, either bring your check to the next <a href="/calendar">GBA meeting</a> or mail it.</p>
+            <p>After you send the application, either bring your check to the next <a href="/calendar" target="_blank" rel="noopener">GBA meeting</a> or mail it.</p>
             <p>Make the check payable to <strong>Groton Business Association</strong> and mail it to:</p>
             <address>Groton Business Association<br>c/o Jeff Gordon, President<br>161 Main Street<br>Groton, MA 01450</address>
           </div>
