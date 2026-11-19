@@ -223,7 +223,7 @@ page("index.html", "Home",
           <h2>Destination Groton</h2>
           <p>GBA conceived the idea and initiative behind what is now <a href="https://www.grotonma.gov/government/boards-and-committees/destination-groton-committee/" target="_blank" rel="noopener">Destination Groton</a>, and the newly established town-appointed committee, the <a href="https://www.grotonma.gov/government/boards-and-committees/destination-groton-committee/" target="_blank" rel="noopener">Destination Groton Committee</a>.</p>
           <p>In the fall of 2020, GBA formed a six-person Working Group to study and create a 100+ page report focusing on the arrival of the Groton Hill Music Center in the fall of 2022. The Working Group studied Groton Hill's inherent contribution to the growth of the Town of Groton. GBA's report concludes that Groton will continue to inherently expand the many facets of the community that have made it a "Destination Community," a place where people come from other places to enjoy the town's culture, history, art, and natural resources. How we engage as a community of stakeholders (town residents, business community, and town leaders) over the coming years will determine whether we get out in front of it, or sit back and wait to react to it.</p>
-          <p><a href="https://portal.grotonma.gov/storage/Destination_Groton_Committee/Destination-Groton-Report.pdf" rel="noopener">The report is designed to be a resource for the Town as it faces the opportunities and challenges the future holds (PDF).</a></p>
+          <p><a href="https://portal.grotonma.gov/storage/Destination_Groton_Committee/Destination-Groton-Report.pdf" rel="noopener" target="_blank">The report is designed to be a resource for the Town as it faces the opportunities and challenges the future holds (PDF).</a></p>
           <p class="hint">GBA is responsible for the report's contents, findings, and conclusions.</p>
         </section>
 
@@ -238,7 +238,7 @@ page("index.html", "Home",
           <p>There are many benefits of membership:</p>
           <ul class="benefits">
             <li><strong>Increased business.</strong> One of the principles upon which the GBA is founded is the idea that people do business with others that they know and trust. Networking is a very valuable and effective way of doing business in a small-town environment.</li>
-            <li><strong>Online Town of Groton business listing visibility.</strong> The Town of Groton's website, <a href="https://www.grotonma.gov" rel="noopener">GrotonMA.gov</a>, serves as a direct portal to the GBA website.</li>
+            <li><strong>Online Town of Groton business listing visibility.</strong> The Town of Groton's website, <a href="https://www.grotonma.gov" rel="noopener" target="_blank">GrotonMA.gov</a>, serves as a direct portal to the GBA website.</li>
             <li><strong>Strength in numbers.</strong> When issues arise that could affect the Groton business and farming community (for example, changes in the sign bylaw), being part of a group gives you a stronger voice.</li>
             <li><strong>Common cause.</strong> As a group, Groton businesses and farms can identify opportunities for one-time or recurring events that benefit the residents and businesses (for example, Shop Groton Local).</li>
             <li><strong>Business advocacy.</strong> The GBA is used as a means of advocating for businesses in general or for a specific business before Town boards, and often Town Meetings.</li>
@@ -249,7 +249,7 @@ page("index.html", "Home",
         <section class="home-block">
           <h2>When and where?</h2>
           <p>If you are interested in joining GBA, please attend one of our monthly meetings and be our guest!</p>
-          <p>GBA meetings are usually held on the 3rd Wednesday of each month, from September to June (on hiatus for July and August). The Annual Kickoff Meeting is held in September! Meetings are held at local establishments and start at 5:00 pm for dinner. They are usually catered by the host establishment or a local professional caterer. The meeting agenda will vary, but it will always be informative. GBA meeting and event dates and times can be found on the <a href="/calendar">GBA Calendar</a>.</p>
+          <p>GBA meetings are usually held on the 3rd Wednesday of each month, from September to June (on hiatus for July and August). The Annual Kickoff Meeting is held in September! Meetings are held at local establishments and start at 5:00 pm for dinner. They are usually catered by the host establishment or a local professional caterer. The meeting agenda will vary, but it will always be informative. GBA meeting and event dates and times can be found on the <a href="/calendar" target="_blank">GBA Calendar</a>.</p>
           <p>For GBA members, meals are always complimentary. For prospective members, your first visit will be complimentary. For non-members, meals are $30 at the door.</p>
         </section>
 
