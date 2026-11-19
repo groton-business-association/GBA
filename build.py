@@ -334,7 +334,7 @@ page("about.html", "About",
       <div class="wrap cols cols-2">
         <div>
           <h2>Leadership</h2>
-          <p class="hint">Effective January 1, 2024</p>
+          <p class="hint">Effective January 1, 2025</p>
           <h3>Executive Committee</h3>
           <ul class="people">
             <li><strong>Jeff Gordon</strong><span>President</span></li>
@@ -351,7 +351,7 @@ page("about.html", "About",
         </div>
         <div>
           <h2>How we are organized</h2>
-          <p>The Executive Committee has six roles: President, Vice President, Treasurer, Clerk, Director of Marketing and Events, and Director of Giving. The Board of Directors is the Executive Committee plus up to seven other members. All serve as volunteers, without term limits. The administrative year runs January 1 to December 31.</p>
+          <p>The Executive Committee has six roles: President, Treasurer, Director of Marketing, Director of GrotonFest Event Coordination, Director of GrotonFest Entertainment, and Director of Giving. The Board of Directors is the Executive Committee plus up to seven other members. All serve as volunteers, without term limits. The administrative year runs January 1 to December 31.</p>
           <h3>Subcommittees</h3>
           <ul class="plain-list">
             <li><strong>Community Outreach</strong> builds channels for businesses and residents to connect with the GBA and makes it easier for businesses to grow in Groton.</li>
