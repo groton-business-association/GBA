@@ -341,6 +341,7 @@ page("about.html", "About",
             <li><strong>Naomi Campbell Siok</strong><span>Treasurer</span></li>
             <li><strong>Elani Coetzer</strong><span>Director of Marketing</span></li>
             <li><strong>Jen Moore</strong><span>Director of Event Coordination</span></li>
+            <li><strong>Caitlin Brandt</strong><span>Director of GrotonFest Entertainment</span></li>
             <li><strong>Sadie Guichard</strong><span>Director of Giving</span></li>
           </ul>
           <h3>Board of Advisors</h3>
